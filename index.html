@@ -6,8 +6,20 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
-		<h1>Welcome</h1>
-		<p>This a sample github static webpage hosted by ... As a part of cs252 project</p>
+
+		<form action="action_page.php">
+			First name:<br>
+			<input type="text" name="firstname" value="Mickey">
+			<br>
+			Last name:<br>
+			<input type="text" name="lastname" value="Mouse">
+			<br><br>
+			<input type="submit" value="Submit">
+		</form>
+
+		<p>If you click the "Submit" button, the form-data will be sent to a page called "action_page.php".</p>
 		<script src="js/bootstrap.min.js"></script>
+
 	</body>
 </html>
+
